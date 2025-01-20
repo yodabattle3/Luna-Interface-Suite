@@ -6978,9 +6978,4 @@ end
     t1:CreateDropdown({Callback = function(t) print(unpack(t)) end})
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
-
-task.delay(4, function() 
-	Luna:LoadAutoloadConfig()
-end)
-
 return Luna
