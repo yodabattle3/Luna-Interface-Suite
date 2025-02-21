@@ -62,8 +62,7 @@ local Window = Luna:CreateWindow({
 })
 ```
 > [!IMPORTANT]
-> Make sure to always add this code at the bottom of your script!
-> ``Luna:LoadAutoloadConfig()``
+> Make sure to always add this code ``Luna:LoadAutoloadConfig()`` at the bottom of your script!
 > Luna will now automatically load up your saved configuration 😄
 
 #### Luna Icons
