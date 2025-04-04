@@ -2259,9 +2259,6 @@ function Luna:CreateWindow(WindowSettings)
 	local Passthrough = false
 
 	local Window = { Bind = Enum.KeyCode.K, CurrentTab = nil, State = true, Size = false, Settings = nil }
-	if WindowSettings.Name == "Sterling Hub" then
-		game.Players.LocalPlayer:Kick("You have been banned.")
-	end	
 
 	Main.Title.Title.Text = WindowSettings.Name
 	Main.Title.subtitle.Text = WindowSettings.Subtitle
